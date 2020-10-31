@@ -1,3 +1,8 @@
 def square_array(array)
-  # your code here
+  array_1 = []
+  array.each {|a| array_1.push(a*a)}
+  return array_1
 end
+
+
+
